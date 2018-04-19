@@ -55,7 +55,7 @@ var employee = {
   }
 
 }
-employee.lastName()
+// employee.lastName()
 // Add a method called lastName that prints
 // out the employee's last name to the console.
 
