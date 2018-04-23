@@ -36,6 +36,6 @@ x.add(1)
 x.add(2)
 x.add(5)
 x.add(5)
-x.add(5)
+x.add(5)#only unique elements
 
 print(x)

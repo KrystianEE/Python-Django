@@ -108,7 +108,6 @@ def doubleChar(str):
         nstr+= letter + letter
     return nstr
 
-print(doubleChar('Hi-There'))
 
 #####################
 ## -- PROBLEM 5 -- ##
@@ -131,10 +130,16 @@ print(doubleChar('Hi-There'))
 # no_teen_sum(2, 13, 1) → 3
 # no_teen_sum(2, 1, 14) → 3
 
-#def no_teen_sum(a, b, c):
-  # CODE GOES HERE
-#def fix_teen(n):
-  # CODE GOES HERE
+def no_teen_sum(a, b, c):
+    a=fix_teen(a)
+    b=fix_teen(b)
+    c=fix_teen(c)
+    return (a+b+c)
+def fix_teen(n):
+    if n>12 and n<20 and (n!=15 or n!=16):
+        n=0
+    return n
+
 
 #####################
 ## -- PROBLEM 6 -- ##
@@ -148,5 +153,9 @@ print(doubleChar('Hi-There'))
 # count_evens([2, 2, 0]) → 3
 # count_evens([1, 3, 5]) → 0
 
-#def count_evens(nums):
-  # CODE GOES HERE
+def count_evens(nums):
+    sum=0
+    for i in range(len(nums)):
+        if nums[i]%2==0:
+            sum+=1
+    return sum
