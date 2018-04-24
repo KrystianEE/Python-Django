@@ -112,7 +112,7 @@ $('.board button').on('click',function() {
 
   var bottomAvail = checkBottom(col);
 
-  changeColor(bottomAvail,col,currentColor);
+  changeColor(bottomAvail, col, currentColor);
 
   if (horizontalWinCheck() || verticalWinCheck() || diagonalWinCheck()) {
     gameEnd(currentName);
