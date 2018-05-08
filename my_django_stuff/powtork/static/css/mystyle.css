@@ -1,0 +1,10 @@
+h1{
+  color: red;
+}
+
+table, th, td{
+  border: 3px solid black;
+}
+.allm{
+  align-items: center;
+}

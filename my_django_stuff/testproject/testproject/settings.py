@@ -20,7 +20,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '&p+^=0$n^xwj0)4r5vj%-uq*%c&xb##3@ork8$$g*rovx*wzh$'
+SECRET_KEY = '5yo#l%(cmo#9l!(#b0n4_k!d==93cqr#8roeh*$1&a3bta#*wh'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'testapp',
 ]
 
 MIDDLEWARE = [
